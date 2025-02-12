@@ -96,5 +96,5 @@ if len(sys.argv) < 2:
         print(
             "Note that you can also drag and drop a video onto the file in your file explorer without using the command line."
         )
-
-process_video(sys.argv[1])
+else:
+    process_video(sys.argv[1])
